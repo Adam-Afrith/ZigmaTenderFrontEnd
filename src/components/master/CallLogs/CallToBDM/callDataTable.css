@@ -1,0 +1,36 @@
+/* .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+@media (max-width: 767px) {
+  .table thead {
+    display: none;
+  }
+  
+  .table tbody {
+    display: block;
+    width: 100%;
+  }
+  
+  .table tr {
+    display: block;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table td {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    border-bottom: none;
+    padding: 0.5rem;
+  }
+  
+  .table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+} */

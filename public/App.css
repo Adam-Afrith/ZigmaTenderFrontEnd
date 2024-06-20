@@ -1,0 +1,399 @@
+.Login .login_Bg {   
+    background-color: #f0f0f0!important;
+    /* background-color: #1ea9ff!important; */
+    background-image: none;
+}
+.Login .login_img {
+    background: url(../public/assets/img/loginbg.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
+.Login .login_logo {
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+    transition: 2s ease-in-out;
+    animation: wave;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+}
+@keyframes wave {
+    0%{
+        transform: translate(0px, 0px);
+    }   
+    50%{
+        transform: translate(0px, 20px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+    
+}
+
+.Login .card {
+    width: 400px;
+    box-shadow: 1px 1px 17px #6868681a;
+    margin-left: 40px;
+    border-radius: 40px!important;
+}
+.Login .card-body {
+    padding: 20px 28px;
+}
+
+.Login form .form-group .label {
+    position: absolute;
+    transform: translate(20px, -35px);
+    transition: 0.2s ease-in-out;
+}
+.Login form .form-group input:focus ~ .label span:nth-child(1) {
+    animation: wavy1 .5s linear;    
+}
+.Login form .form-group input:focus ~ .label span:nth-child(2) {
+    animation: wavy2 .5s linear;
+    animation-delay: .1s;    
+}
+.Login form .form-group input:focus ~ .label span:nth-child(3) {
+    animation: wavy3 .5s linear;
+    animation-delay: .2s;    
+}
+.Login form .form-group input:focus ~ .label span:nth-child(4) {
+    animation: wavy4 .5s linear;
+    animation-delay: .3s;    
+}
+.Login form .form-group input:focus ~ .label span:nth-child(5) {
+    animation: wavy5 .5s linear;
+    animation-delay: .4s;    
+}
+.Login form .form-group input:focus ~ .label span:nth-child(6) {
+    animation: wavy6 .5s linear;
+    animation-delay: .5s;    
+}
+.Login form .form-group input:focus ~ .label span:nth-child(7) {
+    animation: wavy7 .5s linear;
+    animation-delay: .6s;    
+}
+.Login form .form-group input:focus ~ .label span:nth-child(8) {
+    animation: wavy8 .5s linear;
+    animation-delay: .7s;    
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #23d461;
+    background-color: #23d461;
+}
+
+.Login form .form-group input:focus ~ .label, 
+.Login form .form-group input:valid ~ .label
+{
+
+    transform: translate(15px, -61px);
+    background: #23d461;
+    color: #fff;
+    box-shadow: 0px 0px 13px #ececec;
+    border-radius: 17px;
+    padding: 1px 10px;   
+    font-size: 14px;    
+    width: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+@keyframes wavy1 {
+    0%{
+        position: relative;
+        top: 0px;
+    }
+    50%{
+        position: relative;
+        top: -5px;
+    }    
+    100%{
+        position: relative;
+        top: 0px;
+    }
+}
+@keyframes wavy2 {
+    0%{
+        position: relative;
+        top: 0px;
+    }
+    50%{
+        position: relative;
+        top: -5px;
+    }    
+    100%{
+        position: relative;
+        top: 0px;
+    }
+}
+@keyframes wavy3 {
+    0%{
+        position: relative;
+        top: 0px;
+    }
+    50%{
+        position: relative;
+        top: -5px;
+    }    
+    100%{
+        position: relative;
+        top: 0px;
+    }
+}
+@keyframes wavy4 {
+    0%{
+        position: relative;
+        top: 0px;
+    }
+    50%{
+        position: relative;
+        top: -5px;
+    }    
+    100%{
+        position: relative;
+        top: 0px;
+    }
+}
+@keyframes wavy5 {
+    0%{
+        position: relative;
+        top: 0px;
+    }
+    50%{
+        position: relative;
+        top: -5px;
+    }    
+    100%{
+        position: relative;
+        top: 0px;
+    }
+}
+@keyframes wavy6 {
+    0%{
+        position: relative;
+        top: 0px;
+    }
+    50%{
+        position: relative;
+        top: -5px;
+    }    
+    100%{
+        position: relative;
+        top: 0px;
+    }
+}
+@keyframes wavy7 {
+    0%{
+        position: relative;
+        top: 0px;
+    }
+    50%{
+        position: relative;
+        top: -5px;
+    }    
+    100%{
+        position: relative;
+        top: 0px;
+    }
+}
+@keyframes wavy8 {
+    0%{
+        position: relative;
+        top: 0px;
+    }
+    50%{
+        position: relative;
+        top: -5px;
+    }    
+    100%{
+        position: relative;
+        top: 0px;
+    }
+}
+
+
+.Login form .login-btn {
+    background: #007e2c;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 40px;    
+}
+.login-btn.disabled, .login-btn:disabled {
+    color: #fff;
+    background-color: #12c350;
+    border-color: #12c350;
+}
+
+.Login form  button .dfx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Login form  button .dfx .fa-gavel{
+    position: absolute;
+    bottom: 56px;
+    left: 53px;
+    font-size: 27px;
+    transition: .5s ease-in;
+}
+.Login form  button:hover .dfx .fa-gavel{
+    transform: rotate(45deg);
+    transition: .1s ease-out;
+}
+.Login form  button .dfx .fa-gavel.hammer {
+    position: absolute;
+    bottom: 56px;
+    left: 53px;
+    font-size: 27px;
+    animation: hammer .4s infinite;
+    transition: .5s ease-in;
+}
+@keyframes hammer {
+    0%{
+        transform: rotate(0deg);        
+    }
+    100%{
+        transform: rotate(45deg);
+        transition: .1s ease-out!important;
+    }
+}
+
+
+.Login form p.text-danger{
+    padding-bottom: 11px;
+}
+.Login form p.text-danger span{
+    position: absolute;
+    bottom: 14px;
+    left: 100px;
+}
+
+.Login form .form-group .form-control-user {
+    margin-top: 25px;
+}
+
+.form-control:focus {
+    border-color: #23d461!important;
+    box-shadow: unset!important;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #12c350;
+    border-color: #12c350;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #12c350;
+    border-color: #12c350;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #12c350;
+    border-color: #12c350;
+    box-shadow: 1px 1px 13px #ebebeb;
+}
+/* .box {
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+    height: 103px;    
+} */
+/* .box::before {
+    content: '';
+    background: #f0f0f0;
+    height: 100px;
+    width: 100px;
+    z-index: 9999;
+    position: absolute;
+}
+.box::after {
+    content: '';
+    background: #f0f0f0;
+    height: 100px;
+    width: 100px;
+    z-index: 9999;
+    position: absolute;
+    right: 0;
+} */
+/* 
+.truck {
+    background: url(../public/assets/img/truck.png);
+    height: 100px;
+    width: 150px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 2px;
+    animation: run 5s infinite linear;    
+    transition: 2s linear;
+    overflow-x: hidden;
+}
+
+
+@keyframes run {
+    0% {
+       
+        transform: translateX(-100px);
+        
+    }
+    100% {
+       
+        transform: translateX(1250px);
+        
+    }
+}
+
+.truck1 {
+    background: url(../public/assets/img/recycle-truck.png);
+    height: 120px;
+    width: 200px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -10px;
+    animation: run1 5s infinite linear;  
+    animation-delay: 3s;  
+    transition: 2s linear;
+    overflow-x: hidden;
+}
+
+
+@keyframes run1 {
+    0% {
+       
+        transform: translateX(-100px);
+        
+    }
+    100% {
+       
+        transform: translateX(1250px);
+        
+    }
+}
+
+
+ ::-webkit-scrollbar 
+{
+	display: none;
+    background: transparent;
+}
+ ::-webkit-scrollbar-thumb 
+{
+	display: none;
+    background: transparent;
+}
+
+::-webkit-scrollbar-track 
+{
+	display: none;
+    background: transparent;
+} */

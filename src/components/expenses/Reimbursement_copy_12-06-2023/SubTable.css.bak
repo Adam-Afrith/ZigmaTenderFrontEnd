@@ -1,0 +1,58 @@
+.poptb {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .popuptd, .popth {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .popth {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #f2f2f2;
+    color: #000;
+  }
+  .m20:hover {
+    color: red;
+  }
+  .clr{
+    color: #0c9129;
+    font-size: 1.5em;
+  }
+  .pending{
+    color: #f0711c;
+    font-size: 1.8em;
+   
+  }
+  .print{
+    color: #11a0e2;
+    font-size: 1.8em;
+   
+  }
+  .approve{
+    color: #0c9129;
+    font-size: 1.8em;
+  }
+  .reject{
+    color: #eb0e0e;
+    font-size: 1.8em;
+  }
+  .remblik {
+    opacity: 0;
+    animation: fadeInOut 2s ease-in-out infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

@@ -1,0 +1,68 @@
+.logo_icon {
+    background: url('https://erp.zigmaglobal.in/image/logo.png');
+    display: block;
+    height: 100%;
+    width: 100%;
+    /* Other styles here */
+}
+
+.triangle-live {
+	width: 0;
+	height: 0;
+	border-top: 80px solid transparent;
+	border-right: 80px solid blue;
+	border-bottom: 80px solid transparent;
+    border-left: -20px solid transparent;
+    rotate: 135deg;    
+    position: relative;
+    top: -80px;
+    right: -32px;
+}
+
+
+.triangle-info {
+	width: 0;
+	height: 0;
+	border-top: 80px solid transparent;
+	border-right: 80px solid #36b9cc;
+	border-bottom: 80px solid transparent;
+    border-left: -20px solid transparent;
+    rotate: 135deg;    
+    position: relative;
+    top: -80px;
+    right: -32px;
+}
+
+.triangle-fresh {
+	width: 0;
+	height: 0;
+	border-top: 80px solid transparent;
+	border-right: 80px solid #14A44D;
+	border-bottom: 80px solid transparent;
+    border-left: -20px solid transparent;
+    rotate: 135deg;    
+    position: relative;
+    top: -80px;
+    right: -32px;
+}
+/* 
+.triangle-awarded {
+	width: 0;
+	height: 0;
+	border-top: 80px solid transparent;
+	border-right: 80px solid ;
+	border-bottom: 80px solid transparent;
+    border-left: -20px solid transparent;
+    rotate: 135deg;    
+    position: relative;
+    top: -80px;
+    right: -32px;
+} */
+
+.border-3
+{
+    border-width: 8px !important;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+}

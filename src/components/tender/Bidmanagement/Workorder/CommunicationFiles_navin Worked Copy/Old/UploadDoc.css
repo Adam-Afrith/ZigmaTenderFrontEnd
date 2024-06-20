@@ -1,0 +1,25 @@
+.height_of_dropbox{
+    height : 150px
+}
+
+.dashed {border-style: dashed;}
+
+.boderradius__dropbox{
+    border-radius: 1.5rem;
+}
+
+.pointer {cursor: pointer;}
+
+.drop-file-input:hover,
+.drop-file-input.dragover {
+    opacity: 0.6;
+}
+
+.drop-file-input input {
+    opacity: 0;
+}
+
+.doclist{
+    height: 500px;
+  
+}
